@@ -753,6 +753,7 @@ KBUILD_CFLAGS	+= -mllvm -polly \
 		   -mllvm -polly-invariant-load-hoisting
 endif
 endif
+endif
 
 ifdef CONFIG_CC_WERROR
 KBUILD_CFLAGS	+= -Werror
