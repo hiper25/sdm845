@@ -753,7 +753,6 @@ KBUILD_CFLAGS	+= -mllvm -polly \
 endif
 endif
 endif
-endif
 
 ifdef CONFIG_CC_WERROR
 KBUILD_CFLAGS	+= -Werror
